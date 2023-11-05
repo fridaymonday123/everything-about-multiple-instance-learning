@@ -66,27 +66,17 @@ In this repository:**
 
 ### 1.1 Python
 
-- [**imbalanced-ensemble**](https://imbalanced-ensemble.readthedocs.io/) [[**Github**](https://github.com/ZhiningLiu1998/imbalanced-ensemble)][[**Documentation**](https://imbalanced-ensemble.readthedocs.io/)][[**Gallery**](https://imbalanced-ensemble.readthedocs.io/en/latest/auto_examples/index.html#)][[**Paper**](https://arxiv.org/pdf/2111.12776.pdf)]
+- [**Multiple Instance Active Learning for Object Detection**][[**Github**](https://github.com/yuantn/MI-AOD)][[**Paper**](https://openaccess.thecvf.com/content/CVPR2021/papers/Yuan_Multiple_Instance_Active_Learning_for_Object_Detection_CVPR_2021_paper.pdf)]
 
   > **NOTE:** written in python, easy to use.
-  >
 
-  - `imbalanced-ensemble` is a Python toolbox for quick implementing and deploying ***ensemble learning algorithms*** on class-imbalanced data. It is featured for:
-    - (i) Unified, easy-to-use APIs, detailed [documentation](https://imbalanced-ensemble.readthedocs.io/) and [examples](https://imbalanced-ensemble.readthedocs.io/en/latest/auto_examples/index.html#).
-    - (ii) Capable for multi-class imbalanced learning out-of-box.
-    - (iii) Optimized performance with parallelization when possible using [joblib](https://github.com/joblib/joblib).
-    - (iv) Powerful, customizable, interactive training logging and visualizer.
-    - (v) Full compatibility with other popular packages like [scikit-learn](https://scikit-learn.org/stable/) and [imbalanced-learn](https://imbalanced-learn.org/stable/).
-  - Currently (v0.1.4), it includes more than 15 ensemble algorithms based on ***re-sampling*** and ***cost-sensitive learning*** (e.g., *SMOTEBoost/Bagging, RUSBoost/Bagging, AdaCost, EasyEnsemble, BalanceCascade, SelfPacedEnsemble*, ...).
-- [**imbalanced-learn**](https://imbalanced-learn.org/stable/) [[**Github**](https://github.com/scikit-learn-contrib/imbalanced-learn)][[**Documentation**](https://imbalanced-learn.org/stable/)][[**Paper**](https://www.jmlr.org/papers/volume18/16-365/16-365.pdf)]
+- [**DSMIL: Dual-stream multiple instance learning networks for tumor detection in Whole Slide Image**][[**Github**](https://github.com/binli123/dsmil-wsi)][[**Paper**](https://arxiv.org/abs/2011.08939)]
 
   > **NOTE:** written in python, easy to use.
-  >
 
-  - `imbalanced-learn` is a python package offering a number of ***re-sampling*** techniques commonly used in datasets showing strong between-class imbalance. It is compatible with [scikit-learn](https://scikit-learn.org/stable/) and is part of [scikit-learn-contrib](https://github.com/scikit-learn-contrib) projects.
-  - Currently (v0.8.0), it includes 21 different re-sampling techniques, including over-sampling, under-sampling and hybrid ones (e.g., *SMOTE, ADASYN, TomekLinks, NearMiss, OneSideSelection*, SMOTETomek, ...)
-  - This package also provides many utilities, e.g., *Batch generator for Keras/TensorFlow*, see [API reference](https://imbalanced-learn.org/stable/references/index.html#api).
-- [**smote_variants**](https://smote-variants.readthedocs.io/en/latest/) [[**Documentation**](https://smote-variants.readthedocs.io/en/latest/)][[**Github**](https://github.com/analyticalmindsltd/smote_variants)] - A collection of 85 minority ***over-sampling*** techniques for imbalanced learning with multi-class oversampling and model selection features (All writen in Python, also support R and Julia).
+- [**mil: multiple instance learning library for Python**][[**Github**](https://github.com/rosasalberto/mil#mil-multiple-instance-learning-library-for-python)]
+
+  > **NOTE:** written in python, easy to use.
 
 ### 1.2 R
 
